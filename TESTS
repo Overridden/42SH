@@ -1,0 +1,13 @@
+cat << EOF
+
+cat << EOF | less
+
+caca || echo zizi
+
+/bin/kill -11 0
+
+badcommand && ls || echo doit_safficher
+
+<< toto cat > toto ; << EOF cat | sed s/toto/0/ > ma_note ; /bin/echo -n ma_note: ; < ma_note cat
+
+echo coucou >test; < test ls | cat -e|  wc -c >> test && >> test echo success ;cat test
